@@ -1,0 +1,30 @@
+# Compiled binaries
+compiler
+*.exe
+*.out
+a.out
+
+# Generated assembly files
+*.asm
+*.o
+*.obj
+
+# Test files
+test_*.jive
+test*.jive
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+

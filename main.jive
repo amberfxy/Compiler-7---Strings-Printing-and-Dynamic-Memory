@@ -1,0 +1,25 @@
+fn main() -> int {
+    // Test string literals and printing
+    let msg: string = "Hello, World!";
+    print(msg);
+    
+    // Test integer printing
+    let x: int = 42;
+    print(x);
+    
+    // Test dynamic memory allocation
+    let size: int = 100;
+    let ptr: int = malloc(size);
+    
+    // Test free
+    free(ptr);
+    
+    // Test string concatenation (using malloc for new string)
+    let str1: string = "Hello";
+    let str2: string = " World!";
+    print(str1);
+    print(str2);
+    
+    return 0;
+}
+
